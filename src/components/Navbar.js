@@ -66,7 +66,7 @@ export default function Navbar() {
               <li>Home</li>
             </NavLink>
             <NavLink
-              to="/about-me"
+              to="/about"
               onClick={() => {
                 setIsNavExpanded(false);
               }}

@@ -19,6 +19,10 @@ body {
   background-color: var(--color-primary);
 }
 
+/* main {
+  margin-top: 6rem;
+} */
+
 ol,
 ul {
   list-style: none;
