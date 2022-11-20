@@ -6,12 +6,29 @@
   align-items: center;
 }
 
-.home .title {
+.home .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   font-size: 3rem;
   color: var(--color-secondary);
 }
 
-.home .title span {
+.home .content span {
   font-size: 2rem;
   color: var(--color-tertiary);
+}
+
+.home button {
+  transition-duration: 0.4s;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  width: 20rem;
+  padding: 1rem;
+}
+
+.home button:hover {
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
 }
