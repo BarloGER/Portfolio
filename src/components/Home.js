@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 
 export default function Home() {
@@ -8,7 +9,9 @@ export default function Home() {
           Hi I'm <span>Mike Barlozewski</span> <br />
           I'm a Full Stack Web Developer
         </h1>
-        <button>Zu meinen Projekten</button>
+        <Link to="/projects">
+          <button>Zu meinen Projekten</button>
+        </Link>
       </div>
     </main>
   );

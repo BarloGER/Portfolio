@@ -15,13 +15,20 @@
 
 body {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--color-primary);
 }
 
-/* main {
-  margin-top: 6rem;
-} */
+button {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 1rem;
+}
+
+button:hover {
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
+}
 
 ol,
 ul {
@@ -30,4 +37,5 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--color-secondary);
 }
