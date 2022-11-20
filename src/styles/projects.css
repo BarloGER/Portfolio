@@ -1,0 +1,38 @@
+.projects {
+  margin-top: 3rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.projects .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 3rem;
+  color: var(--color-secondary);
+}
+
+.projects .content h1 {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.projects .content h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.projects .content img {
+  width: 30rem;
+  margin: 0 auto;
+}
+.projects button {
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  margin-right: 0.5rem;
+}

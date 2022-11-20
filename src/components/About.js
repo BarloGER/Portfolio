@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import Avatar from "../images/mike.jpg";
+import Avatar from "../images/Mike.jpg";
 
 export default function About() {
   return (

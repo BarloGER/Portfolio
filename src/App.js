@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Projects from "./components/Projects";
 import "./styles/global.css";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   );
