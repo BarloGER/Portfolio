@@ -17,7 +17,7 @@
   color: var(--color-secondary);
 }
 
-.content article {
+.contact .content article {
   padding: 2rem;
   line-height: 1.4;
 }
@@ -30,6 +30,5 @@
 }
 
 .contact-info button {
-  padding: 0.2rem;
   font-size: 2rem;
 }

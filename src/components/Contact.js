@@ -16,7 +16,13 @@ export default function Contact() {
             <a href="mailto:barlozewski.mike@gmail.com">Email</a>
           </button>
           <button>
-            <a href="www.linkedin.com/in/mike-barlozewski">LinkedIn</a>
+            <a
+              href="www.linkedin.com/in/mike-barlozewski"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
           </button>
         </div>
       </div>

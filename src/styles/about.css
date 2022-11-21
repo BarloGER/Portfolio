@@ -15,12 +15,25 @@
   color: var(--color-secondary);
 }
 
-.content img {
+.about .content img {
   width: 20rem;
   margin: 0 auto;
 }
 
-.content article {
+.about .content article {
   padding: 1rem;
   line-height: 1.4;
+}
+
+.about article h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about article h2 {
+  font-size: 1.5rem;
+}
+
+.about article h3 {
+  font-size: 1.3rem;
 }
