@@ -12,18 +12,16 @@ export default function Contact() {
           </p>
         </article>
         <div className="contact-info">
-          <button>
-            <a href="mailto:barlozewski.mike@gmail.com">Email</a>
-          </button>
-          <button>
-            <a
-              href="https://www.linkedin.com/in/mike-barlozewski/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-          </button>
+          <a href="mailto:barlozewski.mike@gmail.com">
+            <button>Email</button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mike-barlozewski/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>LinkedIn</button>
+          </a>
         </div>
       </div>
     </main>

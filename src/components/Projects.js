@@ -18,24 +18,20 @@ export default function Projects() {
             </a>
           </div>
           <div className="buttons">
-            <button>
-              <a
-                href="https://github.com/BarloGER/fp"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Frontend
-              </a>
-            </button>
-            <button>
-              <a
-                href="https://github.com/BarloGER/fp-backend"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Backend
-              </a>
-            </button>
+            <a
+              href="https://github.com/BarloGER/fp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Frontend</button>
+            </a>
+            <a
+              href="https://github.com/BarloGER/fp-backend"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Backend</button>
+            </a>
           </div>
           <div className="description">
             <p>
@@ -55,24 +51,20 @@ export default function Projects() {
             </a>
           </div>
           <div className="buttons">
-            <button>
-              <a
-                href="https://github.com/BarloGER/poke-fight"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Frontend
-              </a>
-            </button>
-            <button>
-              <a
-                href="https://github.com/BarloGER/poke-fight-backend-server"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Backend
-              </a>
-            </button>
+            <a
+              href="https://github.com/BarloGER/poke-fight"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Frontend</button>
+            </a>
+            <a
+              href="https://github.com/BarloGER/poke-fight-backend-server"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Backend</button>
+            </a>
           </div>
           <div className="description">
             <p>
@@ -92,24 +84,20 @@ export default function Projects() {
             </a>
           </div>
           <div className="buttons">
-            <button>
-              <a
-                href="https://github.com/BarloGER/react-cookbook"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Frontend
-              </a>
-            </button>
-            <button>
-              <a
-                href="https://github.com/BarloGER/cookbook-api"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Backend
-              </a>
-            </button>
+            <a
+              href="https://github.com/BarloGER/react-cookbook"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Frontend</button>
+            </a>
+            <a
+              href="https://github.com/BarloGER/cookbook-api"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Backend</button>
+            </a>
           </div>
           <div className="description">
             <p>
