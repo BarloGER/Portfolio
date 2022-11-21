@@ -1,6 +1,6 @@
-import SportBase from "../images/SportBase.png";
-import PokeFight from "../images/PokeFight.png";
-import Cookbook from "../images/Cookbook.png";
+import SportBase from "../assets/SportBase.webp";
+import PokeFight from "../assets/PokeFight.webp";
+import Cookbook from "../assets/Cookbook.webp";
 import "../styles/projects.css";
 
 export default function Projects() {

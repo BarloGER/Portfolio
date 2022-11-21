@@ -1,3 +1,7 @@
+/* ----- used in App.js ----- */
+
+/* ----- start of color variables ----- */
+
 :root {
   --color-primary: #2e3038;
   --color-secondary: #eee;
@@ -5,13 +9,16 @@
   --color-quaternary: #4a4a4a;
 }
 
+/* ----- end of color variables ----- */
+
+/* ----- start of global styling ----- */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
-  /* outline: 1px solid red; */
 }
 
 body {
@@ -43,6 +50,8 @@ a {
   cursor: pointer;
 }
 
+/* ----- end of global styling ----- */
+
 /* ----- start of scrollbar styling ----- */
 
 ::-webkit-scrollbar {
@@ -50,11 +59,11 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: var(--color-quaternary);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--color-tertiary);
 }
 
 /* ----- end of scrollbar styling ----- */

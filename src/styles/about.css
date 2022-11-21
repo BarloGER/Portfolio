@@ -1,3 +1,7 @@
+/* ----- used in About.js ----- */
+
+/* ----- start of general styling ----- */
+
 .about {
   margin-top: 6rem;
   height: 100vh;
@@ -6,6 +10,10 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+/* ----- end of general styling ----- */
+
+/* ----- start of content specific styling ----- */
 
 .about .content {
   display: flex;
@@ -39,7 +47,11 @@
   font-size: 1.3rem;
 }
 
-@media screen and (min-width: 600px) {
+/* ----- end of content specific styling ----- */
+
+/* ----- start of media queries ----- */
+
+@media screen and (min-width: 576px) {
   .about .content {
     max-width: 50rem;
     font-size: 3.5rem;
@@ -59,6 +71,52 @@
 
   .about article h3 {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about .content {
+    max-width: 60rem;
+    font-size: 3.8rem;
+  }
+
+  .about .content img {
+    width: 30rem;
+  }
+
+  .about article h1 {
+    font-size: 3.5rem;
+  }
+
+  .about article h2 {
+    font-size: 2.5rem;
+  }
+
+  .about article h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about .content {
+    max-width: 80rem;
+    font-size: 4rem;
+  }
+
+  .about .content img {
+    width: 30rem;
+  }
+
+  .about article h1 {
+    font-size: 4rem;
+  }
+
+  .about article h2 {
+    font-size: 2.5rem;
+  }
+
+  .about article h3 {
+    font-size: 2rem;
   }
 }
 
@@ -84,3 +142,5 @@
     font-size: 2rem;
   }
 }
+
+/* ----- end of media queries ----- */

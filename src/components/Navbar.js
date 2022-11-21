@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../images/Logo.png";
+import Logo from "../assets/Logo.webp";
 import "../styles/navbar.css";
 
 export default function Navbar() {
@@ -70,7 +70,7 @@ export default function Navbar() {
               onClick={() => {
                 setIsNavExpanded(false);
               }}
-              aria-label="Link zur über mich Seite"
+              aria-label="Link zu Informationen über mich"
             >
               <li>Über mich</li>
             </NavLink>
@@ -88,7 +88,7 @@ export default function Navbar() {
               onClick={() => {
                 setIsNavExpanded(false);
               }}
-              aria-label="Leitet weiter zu den Kontaktinformationen"
+              aria-label="Leitet weiter zu meinen Kontaktinformationen"
             >
               <li>Kontakt</li>
             </NavLink>

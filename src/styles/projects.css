@@ -1,3 +1,7 @@
+/* ----- used in Projects.js ----- */
+
+/* ----- start of general styling ----- */
+
 .projects {
   margin-top: 3rem;
   height: 100vh;
@@ -6,6 +10,10 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+/* ----- end of general styling ----- */
+
+/* ----- start of content specific styling ----- */
 
 .projects .content {
   display: flex;
@@ -62,7 +70,11 @@
   padding: 1rem 0;
 }
 
-@media screen and (min-width: 600px) {
+/* ----- end of content specific styling ----- */
+
+/* ----- start of media queries ----- */
+
+@media screen and (min-width: 576px) {
   .projects .content h1 {
     font-size: 3rem;
   }
@@ -84,6 +96,50 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .projects .content h1 {
+    font-size: 3.5rem;
+  }
+
+  .projects .item > * {
+    width: 60rem;
+  }
+
+  .projects .title {
+    font-size: 3.5rem;
+  }
+
+  .projects .buttons {
+    font-size: 3.5rem;
+  }
+
+  .projects .description {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects .content h1 {
+    font-size: 4rem;
+  }
+
+  .projects .item > * {
+    width: 80rem;
+  }
+
+  .projects .title {
+    font-size: 4rem;
+  }
+
+  .projects .buttons {
+    font-size: 4rem;
+  }
+
+  .projects .description {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .projects .content h1 {
     font-size: 5rem;
@@ -102,6 +158,8 @@
   }
 
   .projects .description {
-    font-size: 2.9rem;
+    font-size: 3.5rem;
   }
 }
+
+/* ----- end of media queries ----- */

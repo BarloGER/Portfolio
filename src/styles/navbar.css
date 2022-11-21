@@ -1,4 +1,6 @@
-/* ----- used in Navbar.js and Footer.js ----- */
+/* ----- used in Navbar.js ----- */
+
+/* ----- start of general styling ----- */
 
 .navigation {
   height: 6rem;
@@ -7,6 +9,10 @@
   align-items: center;
   border-bottom: 1px solid var(--color-tertiary);
 }
+
+/* ----- end of general styling ----- */
+
+/* ----- start of content specific styling ----- */
 
 .brand-name {
   display: flex;
@@ -52,7 +58,11 @@
   display: none;
 }
 
-@media screen and (max-width: 830px) {
+/* ----- end of content specific styling ----- */
+
+/* ----- start of media queries ----- */
+
+@media screen and (max-width: 767.98px) {
   .hamburger {
     display: block;
   }
@@ -79,3 +89,5 @@
     z-index: 99;
   }
 }
+
+/* ----- end of media queries ----- */
