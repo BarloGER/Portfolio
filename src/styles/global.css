@@ -42,3 +42,19 @@ a {
   color: var(--color-secondary);
   cursor: pointer;
 }
+
+/* ----- start of scrollbar styling ----- */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* ----- end of scrollbar styling ----- */
