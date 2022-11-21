@@ -12,13 +12,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
   font-size: 3rem;
   color: var(--color-secondary);
-}
-
-.projects .content h1 {
-  font-size: 3rem;
+  gap: 2rem;
 }
 
 .projects .item > * {
@@ -29,7 +25,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .projects .title {
@@ -46,6 +43,10 @@
   width: 100%;
 }
 
+.projects img::before {
+  background-color: aqua;
+}
+
 .projects .buttons {
   display: flex;
   justify-content: center;
@@ -59,4 +60,48 @@
   align-items: center;
   font-size: 2rem;
   padding: 1rem 0;
+}
+
+@media screen and (min-width: 600px) {
+  .projects .content h1 {
+    font-size: 3rem;
+  }
+
+  .projects .item > * {
+    width: 50rem;
+  }
+
+  .projects .title {
+    font-size: 3rem;
+  }
+
+  .projects .buttons {
+    font-size: 3rem;
+  }
+
+  .projects .description {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects .content h1 {
+    font-size: 5rem;
+  }
+
+  .projects .item > * {
+    width: 100rem;
+  }
+
+  .projects .title {
+    font-size: 4rem;
+  }
+
+  .projects .buttons {
+    font-size: 5rem;
+  }
+
+  .projects .description {
+    font-size: 2.9rem;
+  }
 }

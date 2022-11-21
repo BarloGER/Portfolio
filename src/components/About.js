@@ -53,7 +53,7 @@ export default function About() {
             Führungsposition. Im besten Fall als Senior Full-Stack Developer.
             Doch da aller Anfang schwer ist, lege ich mich zunächst nicht fest
             und freue mich auf alle Anfragen. Sei es als Jr. Full-Stack,
-            Front-End oder Backend Developer.
+            Frontend oder Backend Developer.
           </p>
         </article>
       </div>

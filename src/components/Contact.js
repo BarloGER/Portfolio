@@ -17,7 +17,7 @@ export default function Contact() {
           </button>
           <button>
             <a
-              href="www.linkedin.com/in/mike-barlozewski"
+              href="https://www.linkedin.com/in/mike-barlozewski/"
               target="_blank"
               rel="noreferrer"
             >

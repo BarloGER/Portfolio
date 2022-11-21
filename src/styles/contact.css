@@ -1,10 +1,9 @@
 .contact {
-  margin-top: 6rem;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .contact .content {
@@ -31,4 +30,40 @@
 
 .contact-info button {
   font-size: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .contact .content {
+    max-width: 50rem;
+  }
+
+  .contact .content h1 {
+    font-size: 3rem;
+  }
+
+  .contact .content article {
+    font-size: 2.5rem;
+  }
+
+  .contact-info button {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact .content {
+    max-width: 100rem;
+  }
+
+  .contact .content h1 {
+    font-size: 5rem;
+  }
+
+  .contact .content article {
+    font-size: 4rem;
+  }
+
+  .contact-info button {
+    font-size: 4rem;
+  }
 }

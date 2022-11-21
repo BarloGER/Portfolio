@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import "../styles/navigation.css";
+import Logo from "../images/Logo.png";
+import "../styles/navbar.css";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -9,8 +10,7 @@ export default function Navbar() {
     <header>
       <nav className="navigation">
         <a href="/" className="brand-name">
-          <span id="brand-name-span">M</span>
-          <span id="brand-name-span">B</span>
+          <img src={Logo} alt="Logo" />
         </a>
         <button
           className="hamburger"

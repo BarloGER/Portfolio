@@ -6,7 +6,7 @@ export default function Home() {
     <main className="home">
       <div className="content">
         <h1>
-          Hi Ich bin <span>Mike Barlozewski</span> <br />
+          Hi, ich bin <span>Mike Barlozewski</span> <br />
           Ich bin Full-Stack Web Developer
         </h1>
         <Link to="/projects">

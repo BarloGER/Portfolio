@@ -15,6 +15,10 @@
   color: var(--color-secondary);
 }
 
+.brand-name img {
+  width: 6rem;
+}
+
 .navigation-menu {
   margin-left: auto;
 }
