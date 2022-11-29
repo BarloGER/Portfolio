@@ -13,7 +13,11 @@ export default function Projects() {
             <h2>SportBase</h2>
           </div>
           <div className="image">
-            <a href="https://monumental-torrone-37d002.netlify.app/">
+            <a
+              href="https://monumental-torrone-37d002.netlify.app/"
+              target="_blank"
+              rel=" noreferrer"
+            >
               <img src={SportBase} alt="Bild von SportsBase" />
             </a>
           </div>
@@ -47,7 +51,12 @@ export default function Projects() {
           </div>
           <div className="image">
             <a href="https://eloquent-alfajores-fa09a4.netlify.app/">
-              <img src={PokeFight} alt="Bild von SportsBase" />
+              <img
+                src={PokeFight}
+                alt="Bild von SportsBase"
+                target="_blank"
+                rel=" noreferrer"
+              />
             </a>
           </div>
           <div className="buttons">
@@ -79,7 +88,11 @@ export default function Projects() {
             <h2>Cookbook</h2>
           </div>
           <div className="image">
-            <a href="https://fabulous-entremet-1de18e.netlify.app/">
+            <a
+              href="https://fabulous-entremet-1de18e.netlify.app/"
+              target="_blank"
+              rel=" noreferrer"
+            >
               <img src={Cookbook} alt="Bild von SportsBase" />
             </a>
           </div>
