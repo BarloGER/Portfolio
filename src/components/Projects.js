@@ -50,13 +50,12 @@ export default function Projects() {
             <h2>PokeFight</h2>
           </div>
           <div className="image">
-            <a href="https://eloquent-alfajores-fa09a4.netlify.app/">
-              <img
-                src={PokeFight}
-                alt="Bild von SportsBase"
-                target="_blank"
-                rel=" noreferrer"
-              />
+            <a
+              href="https://eloquent-alfajores-fa09a4.netlify.app/"
+              target="_blank"
+              rel=" noreferrer"
+            >
+              <img src={PokeFight} alt="Bild von SportsBase" />
             </a>
           </div>
           <div className="buttons">
